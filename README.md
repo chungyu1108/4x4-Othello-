@@ -9,8 +9,10 @@ Evaluation functions: The 4x4 version of Othello is small enough that we can gen
 H0, Piece Difference: Number of your pieces - number of opponent's pieces
 H1, Mobility:  Number of your legal moves - number of opponent's legal moves
 H2: Design your own function
-# 2. Successor function: You will also need to create a successor function. This function takes the current state of the game and generates all the successors that can be reached within one move of the current state.
+# 2. Successor function: 
+You will also need to create a successor function. This function takes the current state of the game and generates all the successors that can be reached within one move of the current state.
 
-# 3. Alpha-beta/Minimax function: Implement the alpha-beta function in the adversarial search lecture. You will need to implement the Max-Value and Min-Value functions, successor function and different evaluation functions as defined below. Also, you will need to terminate the search once it hits a certain depth defined by the depth parameter.
+# 3. Alpha-beta/Minimax function: 
+Implement the alpha-beta function in the adversarial search lecture. You will need to implement the Max-Value and Min-Value functions, successor function and different evaluation functions as defined below. Also, you will need to terminate the search once it hits a certain depth defined by the depth parameter.
 
 In addition to the functionality described above, you may need to implement some other code to do things like bookkeeping. You also will need to create a report described below.
